@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## About
+The NodeMCU is an open-source firmware and development kit which allows us to use a low-cost ESP8266 WiFi MCU to provide “the best platform for IOT application development at the lowest cost” [NodeMCU homepage](https://www.nodemcu.com/index_en.html).  
 
-You can use the [editor on GitHub](https://github.com/codycodes/iot-porg-makerfaire/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ESPHome is the software and firmware flasher we’ll be using; it’s a “system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems” [ESPHome homepage](https://esphome.io).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Upon Completion
+By completing this project you will have a porg or other hacked 5v plush which can wave be invoked via web request over the Internet!
 
-### Markdown
+<div class="gif-container">
+    <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Minimum Project Scope
+## Time
+* Arduino Development: 2 - 10 hrs depending on issues
+  * Figuring out the issue for uploading code to NodeMCU by needing to change file
+  * Being able to do this on Windows in addition to Linux/Unix
+* Azure Development: 2 - 10 hrs depending on issues
+    * ARM template which is able to orchestrate creation of all resources 
+      * Function App
+      * Azure IoT Hub
+      * IoT Device
 
-```markdown
-Syntax highlighted code block
+* Submission to MakerFaire: 2 hrs
+  * writeup on make projects https://makeprojects.com/
+  * proposal
 
-# Header 1
-## Header 2
-### Header 3
+* Submisison to Instructbles Arduino contest 2 hrs:
+  * https://www.instructables.com/contest/arduino2020/
 
-- Bulleted
-- List
+* Shifts @ MakerFaire: 1 - 8 hrs
 
-1. Numbered
-2. List
+**ESTIMATED TOTAL (AVG time to complete everything): 17 hrs**
 
-**Bold** and _Italic_ and `Code` text
+## Resources/Value Upon Completion
+Arduino device code which can be configured for Wi-Fi in Arduino IDE and can be easily flashed by anyone (instructions or automated):
+* Could be a shell script only
+* Or it could use the Arduino IDE
 
-[Link](url) and ![Image](src)
-```
+Depoloyable ARM template on Azure which allows anyone to deploy the following resources:
+* Function App
+* Azure IoT Hub
+* IoT Device
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/codycodes/iot-porg-makerfaire/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
