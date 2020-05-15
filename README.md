@@ -65,24 +65,24 @@ Each emoji represents one or two people:
 👔= Presenters (one to four people)
 
 - [ ] ARM Template (three people)
-  - [ ]🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
-  - [ ]🔎Learn Deployment Manager for ARM Templates  
-  - [ ]☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
-  - [ ]☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
+- [ ]🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
+- [ ]🔎Learn Deployment Manager for ARM Templates  
+- [ ]☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+- [ ]☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
 
 - [ ] Arduino Flashing (two people)
-  - [ ]🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
-  - [ ]🤖Write a python script to automate changing the files for *Linux/Unix*
-  - [ ]🤖EXTRA: Automate the process on Windows as well and use the [Arduino CLI](https://github.com/arduino/arduino-cli) project
+- [ ]🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
+- [ ]🤖Write a python script to automate changing the files for *Linux/Unix*
+- [ ]🤖EXTRA: Automate the process on Windows as well and use the [Arduino CLI](https://github.com/arduino/arduino-cli) project
 
 - [ ] Submission of Projects (two people)
-  - [ ]📜Create GIX account on [Make Projects](https://makeprojects.com/)
-  - [ ]📜Document process and add in images and other content for Make Projects
-  - [ ]📜Create GIX account on Instructables
-  - [ ]📜Document process and add in images and other content for Instructables
+- [ ]📜Create GIX account on [Make Projects](https://makeprojects.com/)
+- [ ]📜Document process and add in images and other content for Make Projects
+- [ ]📜Create GIX account on Instructables
+- [ ]📜Document process and add in images and other content for Instructables
 
 - [ ] Presentation (one to four people)
-  - [ ] 👔Show up and talk about the project at Virtually Maker Faire
+- [ ] 👔Show up and talk about the project at Virtually Maker Faire
 
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
