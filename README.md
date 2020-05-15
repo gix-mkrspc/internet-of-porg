@@ -58,11 +58,11 @@ And let's not forget, another cool GIX project!
 ## TODO and Delegation
 Each emoji represents one or two people:
 
-☁️= Cloud Engineers (two people)
-🔎= Researcher (one person)
-🤖= Systems Engineers (two people)
-📜= Technical Writers (two people)
-👔= Presenters (one to four people)
+☁️= Cloud Engineers (two people)  
+🔎= Researcher (one person)  
+🤖= Systems Engineers (two people)  
+📜= Technical Writers (two people)  
+👔= Presenters (one to four people)  
 
 - [ ] ARM Template (three people)
 - [ ]🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
