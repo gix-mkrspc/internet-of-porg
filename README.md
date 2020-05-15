@@ -31,6 +31,7 @@ It's worth noting that all tasks will be directly beneficial to the GIX IoT Netw
       * Function App
       * Azure IoT Hub
       * IoT Device
+      * 💭Key Vault + add documentation to add Key
 
 * 💯Submission to MakerFaire: 2 hrs
   * 💯 writeup on make projects https://makeprojects.com/
@@ -39,11 +40,12 @@ It's worth noting that all tasks will be directly beneficial to the GIX IoT Netw
   * https://www.instructables.com/contest/arduino2020/
 
 * 💯 Shifts @ MakerFaire: 1 - 8 hrs
+* 💭 Add this project to GIX's GitHub?: 1 hr
 
 **ESTIMATED TOTAL (AVG time to complete everything): 17 hrs**
 
 ## Resources/Value Upon Completion
-Arduino device code which can be configured for Wi-Fi in Arduino IDE and can be *easily* flashed by anyone (instructions or automated):
+💯Arduino device code which can be configured for Wi-Fi in Arduino IDE and can be *easily* flashed by anyone (instructions or automated):
 * 💯 Could be solely documentation
 * ⚠️ Or it could use the Arduino IDE in conjunction with a python shell script (see the [Arduino CLI](https://github.com/arduino/arduino-cli) project).
 
@@ -51,4 +53,32 @@ Arduino device code which can be configured for Wi-Fi in Arduino IDE and can be 
 * Function App
 * Azure IoT Hub
 * IoT Device
+
+And let's not forget, another cool GIX project!
+## TODO and Delegation
+Each emoji represents one or two people:
+
+☁️= Cloud Engineers (two people)
+🔎= Researcher (one person)
+🤖= Systems Engineers (two people)
+📜= Technical Writers (two people)
+
+- [ ] ARM Template (three people)
+  - [ ]🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
+  - [ ]🔎Learn Deployment Manager for ARM Templates  
+  - [ ]☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+  - [ ]☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
+
+- [ ] Arduino Flashing (two people)
+  - [ ]🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
+  - [ ]🤖Write a python script to automate changing the files for *Linux/Unix*
+  - [ ]🤖EXTRA: Automate the process on Windows as well and use the [Arduino CLI](https://github.com/arduino/arduino-cli) project
+
+- [ ] Submission of Projects (two people)
+  - [ ]📜Create GIX account on [Make Projects](https://makeprojects.com/)
+  - [ ]📜Document process and add in images and other content for Make Projects
+  - [ ]📜Create GIX account on Instructables
+  - [ ]📜Document process and add in images and other content for Instructables
+
+Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
