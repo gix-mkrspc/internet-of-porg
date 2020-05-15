@@ -21,7 +21,7 @@ It's worth noting that all tasks will be directly beneficial to the GIX IoT Netw
 
 ## Time
 * Arduino Development: 2 - 10 hrs depending on path taken
-  * 💯Figuring out the issue for uploading code to NodeMCU by needing to change file (see the [repo](https://github.com/Azure/azure-ioxt-arduino))
+  * 💯Figuring out the issue for uploading code to NodeMCU by needing to change file (see the [repo](https://github.com/Azure/azure-iot-arduino))
     * 💯Documentation 
     * 💭Automation script Linux/Unix
       * ⚠️ Being able to do this on Windows in addition to Linux/Unix - developing a cross-platform Python script
@@ -78,7 +78,7 @@ Each emoji represents one or two people:
 
 - [ ] Submission of Projects (two people) (Yun, Chuck, Ke)
   - [ ] 📜Create GIX account on [Make Projects](https://makeprojects.com/)
-    - [ ] 📜Re-thinking the Future - How the pandemic and our response to it is teaching us to think differently. How, where and why we do things. Sustainability. Food. Well-being.
+    - [ ] 📜Category: Re-thinking the Future - How the pandemic and our response to it is teaching us to think differently. How, where and why we do things. Sustainability. Food. Well-being.
   - [ ] 📜Document process and add in images and other content for Make Projects
   - [ ] 📜Create GIX account on Instructables
   - [ ] 📜Document process and add in images and other content for Instructables
