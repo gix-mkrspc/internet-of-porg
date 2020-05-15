@@ -4,7 +4,7 @@ The NodeMCU is an open-source firmware and development kit which allows us to us
 ESPHome is the software and firmware flasher we’ll be using; it’s a “system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems” [ESPHome homepage](https://esphome.io).
 
 ## Upon Completion
-By completing this project you will have a porg or other hacked 5v plush which can wave be invoked via web request over the Internet!
+By completing this project you will have a porg or other hacked 5v plush which can be invoked via web request over the Internet!
 
 <div class="gif-container" style="text-align:center">
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
