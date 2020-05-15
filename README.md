@@ -69,7 +69,9 @@ Each emoji represents one or two people:
   - [ ] 🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
   - [ ] 🔎Learn Deployment Manager for ARM Templates  
   - [ ] ☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+  - [ ] ☁️Sign up for Azure
   - [ ] ☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
+  - [ ] ☁️[Azure IoT Hub ARM template sample](https://azure.microsoft.com/en-us/resources/templates/?term=iothub)
 
 - [ ] Arduino Flashing (two people) - CJ, Cody
   - [ ] 🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
