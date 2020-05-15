@@ -63,25 +63,33 @@ Each emoji represents one or two people:
 🤖= Systems Engineers (two people)  
 📜= Technical Writers (two people)  
 👔= Presenters (one to four people)  
+🧪= Testers (three people)
 
-- [ ] ARM Template (three people)
+- [ ] ARM Template (three people) - Justin, Joey, Cody
   - [ ] 🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
   - [ ] 🔎Learn Deployment Manager for ARM Templates  
   - [ ] ☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
   - [ ] ☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
 
-- [ ] Arduino Flashing (two people)
+- [ ] Arduino Flashing (two people) - CJ, Cody
   - [ ] 🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
   - [ ] 🤖Write a python script to automate changing the files for *Linux/Unix*
   - [ ] 🤖EXTRA: Automate the process on Windows as well and use the [Arduino CLI](https://github.com/arduino/arduino-cli) project
 
-- [ ] Submission of Projects (two people)
+- [ ] Submission of Projects (two people) (Yun, Chuck, Ke)
   - [ ] 📜Create GIX account on [Make Projects](https://makeprojects.com/)
+    - [ ] 📜Re-thinking the Future - How the pandemic and our response to it is teaching us to think differently. How, where and why we do things. Sustainability. Food. Well-being.
   - [ ] 📜Document process and add in images and other content for Make Projects
   - [ ] 📜Create GIX account on Instructables
   - [ ] 📜Document process and add in images and other content for Instructables
 
-- [ ] Presentation (one to four people)
+- [ ] Testing of project (Chuck, Nick or Paula, Ke)
+  - [ ] 🧪Send out the NodeMCUs
+  - [ ] 🧪Azure account
+  - [ ] 🧪Deploy ARM template
+  - [ ] 🧪Flash Arduino
+
+- [ ] Presentation (one to four people) (TBD)
   - [ ] 👔Show up and talk about the project at Virtually Maker Faire
 
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
