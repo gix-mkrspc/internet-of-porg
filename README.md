@@ -65,10 +65,10 @@ Each emoji represents one or two people:
 👔= Presenters (one to four people)  
 
 - [ ] ARM Template (three people)
-- [ ]🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
-- [ ]🔎Learn Deployment Manager for ARM Templates  
-- [ ]☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
-- [ ]☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
+  - [ ] 🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
+  - [ ] 🔎Learn Deployment Manager for ARM Templates  
+  - [ ] ☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+  - [ ] ☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
 
 - [ ] Arduino Flashing (two people)
   - [ ] 🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
