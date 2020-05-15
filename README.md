@@ -11,33 +11,43 @@ By completing this project you will have a porg or other hacked 5v plush which c
 </div>
 
 # Minimum Project Scope
+
+It's worth noting that all tasks will be directly beneficial to the GIX IoT Network project and not just the MakerFaire attendees and external makers!
+
+## Emoji Guide
+💯 = Must do to complete project  
+💭 = Nice but can work without it  
+⚠️ = Nice but could pose significant time suck and can work without it
+
 ## Time
-* Arduino Development: 2 - 10 hrs depending on issues
-  * Figuring out the issue for uploading code to NodeMCU by needing to change file
-  * Being able to do this on Windows in addition to Linux/Unix
-* Azure Development: 2 - 10 hrs depending on issues
-    * ARM template which is able to orchestrate creation of all resources 
+* Arduino Development: 2 - 10 hrs depending on path taken
+  * 💯Figuring out the issue for uploading code to NodeMCU by needing to change file (see the [repo](https://github.com/Azure/azure-ioxt-arduino))
+    * 💯Documentation 
+    * 💭Automation script Linux/Unix
+      * ⚠️ Being able to do this on Windows in addition to Linux/Unix - developing a cross-platform Python script
+* Azure Development: 2 - 10 hrs depending on path taken
+    * 💯Documentation on process
+    * 💭ARM template which is able to orchestrate creation of all resources 
       * Function App
       * Azure IoT Hub
       * IoT Device
 
-* Submission to MakerFaire: 2 hrs
-  * writeup on make projects https://makeprojects.com/
-  * proposal
+* 💯Submission to MakerFaire: 2 hrs
+  * 💯 writeup on make projects https://makeprojects.com/
 
-* Submisison to Instructbles Arduino contest 2 hrs:
+* 💭Submisison to Instructbles Arduino contest 2 hrs:
   * https://www.instructables.com/contest/arduino2020/
 
-* Shifts @ MakerFaire: 1 - 8 hrs
+* 💯 Shifts @ MakerFaire: 1 - 8 hrs
 
 **ESTIMATED TOTAL (AVG time to complete everything): 17 hrs**
 
 ## Resources/Value Upon Completion
-Arduino device code which can be configured for Wi-Fi in Arduino IDE and can be easily flashed by anyone (instructions or automated):
-* Could be a shell script only
-* Or it could use the Arduino IDE
+Arduino device code which can be configured for Wi-Fi in Arduino IDE and can be *easily* flashed by anyone (instructions or automated):
+* 💯 Could be solely documentation
+* ⚠️ Or it could use the Arduino IDE in conjunction with a python shell script (see the [Arduino CLI](https://github.com/arduino/arduino-cli) project).
 
-Depoloyable ARM template on Azure which allows anyone to deploy the following resources:
+💭Depoloyable ARM template on Azure which allows anyone to deploy the following resources:
 * Function App
 * Azure IoT Hub
 * IoT Device
