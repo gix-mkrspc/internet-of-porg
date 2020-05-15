@@ -62,6 +62,7 @@ Each emoji represents one or two people:
 🔎= Researcher (one person)
 🤖= Systems Engineers (two people)
 📜= Technical Writers (two people)
+👔= Presenters (one to four people)
 
 - [ ] ARM Template (three people)
   - [ ]🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
@@ -79,6 +80,9 @@ Each emoji represents one or two people:
   - [ ]📜Document process and add in images and other content for Make Projects
   - [ ]📜Create GIX account on Instructables
   - [ ]📜Document process and add in images and other content for Instructables
+
+- [ ] Presentation (one to four people)
+  - [ ] 👔Show up and talk about the project at Virtually Maker Faire
 
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
