@@ -4,7 +4,9 @@ The NodeMCU is an open-source firmware and development kit which allows us to us
 ESPHome is the software and firmware flasher we’ll be using; it’s a “system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems” [ESPHome homepage](https://esphome.io).
 
 ## Upon Completion
-By completing this project you will have a porg or other hacked 5v plush which can be invoked via web request over the Internet!
+By completing this project you will have a porg or other hacked interactive 5v plush which can be invoked via web request over the Internet!
+
+As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](https://amzn.to/2WFhYfX)!
 
 <div class="gif-container" style="text-align:center">
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
@@ -96,3 +98,5 @@ Each emoji represents one or two people:
 
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
+## Contributing
+Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
