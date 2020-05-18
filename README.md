@@ -99,7 +99,7 @@ Each emoji represents one or two people:
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
 ## Weekly updates
-- Week 0:
+### Week 0:
   - Arduino: CJ + codes worked on how to setup a dev environment for ESPHome
     - CJ also contributed valuable docs which are now [live](http://cody.codes/gix-mkrfridays-iot/)
   - Azure:
