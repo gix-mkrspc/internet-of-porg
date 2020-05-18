@@ -98,5 +98,22 @@ Each emoji represents one or two people:
 
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
+## Weekly updates
+- Week 0:
+  - Arduino: CJ + codes worked on how to setup a dev environment for ESPHome
+    - CJ also contributed valuable docs which are now [live](http://cody.codes/gix-mkrfridays-iot/)
+  - Azure:
+    - codes reached out to Nick and researched the process to get our GIX MKRSPC account going
+    - Justin, Joey, and codes began learning about how to create automated deployment for Azure resources
+      - Learned that the python SDK would probably be the easiest way to get the job done
+  - Project stuff:
+    - Chuck, Yun, and Ke kicked off the process of doing submission for MakerFaire (thanks, all!)
+    - Joey wrote docs for the whole ESPHome setup process for MKRFRIDAYS and CJ + codes updated them: http://cody.codes/gix-mkrfridays-iot/
+    - As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](https://amzn.to/2WFhYfX)!
+
+What we need next:
+  - Generic MKRSPC email for MakerFaire/Instructables submission?
+  - Azure account status?
+
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
