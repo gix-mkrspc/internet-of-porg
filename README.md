@@ -1,3 +1,14 @@
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<div style="text-align:center">
+    <!-- star -->
+    <a class="github-button" href="https://github.com/codycodes/iot-porg-makerfaire/" data-icon="octicon-star" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Star codycodes/iot-porg-makerfaire on GitHub">Star</a>
+    <!-- download -->
+    <a class="github-button" href="https://github.com/codycodes/iot-porg-makerfaire/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download codycodes/iot-porg-makerfaire on GitHub">Download</a>
+    <!-- issue -->
+    <a class="github-button" href="https://github.com/codycodes/iot-porg-makerfaire/issues" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Issue codycodes/iot-porg-makerfaire on GitHub">Issue</a>
+</div>
+
 ## About
 The NodeMCU is an open-source firmware and development kit which allows us to use a low-cost ESP8266 WiFi MCU to provide “the best platform for IOT application development at the lowest cost” [NodeMCU homepage](https://www.nodemcu.com/index_en.html).  
 
@@ -114,6 +125,14 @@ Maybe with more people and learning this project COULD take up to 40 hours, but 
 What we need next:
   - Generic MKRSPC email for MakerFaire/Instructables submission?
   - Azure account status?
+
+### Week 1:
+  - Arduino:
+    - CJ learned some git and began contributing to a script to help automate setting up Arduino
+  - Azure:
+    - codes began a script to make creating an IoT Hub and devices automated
+  - Project stuff:
+    - Joey finished docs for ESPHome setup process for MKRFRIDAYS and CJ + codes updated them: http://cody.codes/gix-mkrfridays-iot/
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
