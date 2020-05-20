@@ -23,9 +23,24 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](htt
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
 </div>
 
+## Materials required
+
+ - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ)
+ - [Porg](https://amzn.to/2WFhYfX)
+ - [NodeMCU](https://amzn.to/3cKYa0g)
+ - [USB Micro **data** Cable](https://amzn.to/2zUJjBC) (you probably have some of these lying around)
+ - Desktop/laptop computer to flash the NodeMCU
+ - Soldering iron
+ - Solder
+ - Hot glue
+
+## Setup
+
+# Project overview - Just for those working on the project!
 # Minimum Project Scope
 
 It's worth noting that all tasks will be directly beneficial to the GIX IoT Network project and not just the MakerFaire attendees and external makers!
+
 
 ## Emoji Guide
 💯 = Must do to complete project  
