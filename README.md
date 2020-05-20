@@ -23,24 +23,74 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](htt
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
 </div>
 
-## Materials required
+## Materials
 
- - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ)
+  ### Required
+ - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works. You need a long, thin philips head screwdriver)
  - [Porg](https://amzn.to/2WFhYfX)
  - [NodeMCU](https://amzn.to/3cKYa0g)
  - [USB Micro **data** Cable](https://amzn.to/2zUJjBC) (you probably have some of these lying around)
  - Desktop/laptop computer to flash the NodeMCU
  - Soldering iron
  - Solder
- - Hot glue
 
+  ### Preferred
+ - [3D printed NodeMCU case](https://www.thingiverse.com/thing:2786523) (can also use electrical tape)
+ - Hot glue
+ - Wire cutters
+ - Electrical tape
 ## Setup
+### Hacking the porg
+1. Unscrew the battery compartment and remove the batteries from the device. Then, cut the ziptie shown here:
+<div style="text-align:center">
+<!-- make the following images centered -->
+<img src="./assets/1.jpeg" height="600">
+</div>
+2. Scrunch up the Porg and you'll find four screws in the back; unscrew them using the extra long philips screw driver.
+<div style="text-align:center">
+<img src="./assets/2.jpeg" height="600">
+<img src="./assets/3.jpeg" height="600">
+</div>
+3. You can now pry the sides of the bottom out which will pop open the internals; who knew this is what a Porg looks like on the inside?!
+<div style="text-align:center">
+<img src="./assets/4.jpeg" height="600">
+<img src="./assets/5.jpeg" height="600">
+</div>
+4. Use wirecutters to snip the light blue wires which are attached to the button. Leave **plenty** of room from the circuitboard of the porg to the wires. Then snip off the insulation from the wire so that the bare copper wire is showing. Be careful! It's easy to take all the insulation off so hold the bottom of the wire which is attached to the circuitboard with your hand while you pull the top part off.
+<div style="text-align:center">
+<img src="./assets/6.jpeg" height="600">
+</div>
+5. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, completing the circuit and activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
+<div style="text-align:center">
+<img src="./assets/7.jpeg" height="600">
+<img src="./assets/porg_bb.jpeg" height="600">
+</div>
+6. Now that it's soldered in, you should hot glue the connections to the board and the wires to ensure that the connections stay connected. You can use electrical tape if you'd like instead. These are meant to keep the wire connections isolated from each other and the boards.
+<div style="text-align:center">
+<img src="./assets/10.jpeg" height="600">
+</div>
+7. Stuff the electronics back into the Porg, minding the wires.
+<div style="text-align:center">
+<img src="./assets/8.jpeg" height="600">
+</div>
+8. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for hte cable to come out and the porg to still look like it's sitting fine!
+<div style="text-align:center">
+<img src="./assets/11.jpeg" height="600">
+<img src="./assets/12.jpeg" height="600">
+</div>
+Congratulations, your porg can now be automated! 👏👏👏 
+
+### ESPHome (local) flashing instructions
+<!-- These will be updated -->
+Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfridays-iot/) but use the `porg.yaml` file instead of `servo.yaml`. After your board is flashed follow the instructions for general usage.
+
+### TODO: Azure IoT Hub
+In progress and coming soon!
 
 # Project overview - Just for those working on the project!
 # Minimum Project Scope
 
 It's worth noting that all tasks will be directly beneficial to the GIX IoT Network project and not just the MakerFaire attendees and external makers!
-
 
 ## Emoji Guide
 💯 = Must do to complete project  
