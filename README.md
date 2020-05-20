@@ -62,10 +62,10 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](htt
   <img src="./assets/6.jpeg" height="600">
   </div>
 5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, completing the circuit and activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
-    <div style="text-align:center">
-    <img src="./assets/7.jpeg" height="600">
-    <img src="./assets/porg_bb.jpeg" height="600">
-    </div>
+  <div style="text-align:center">
+  <img src="./assets/7.jpeg" height="600">
+  <img src="./assets/porg_bb.jpeg" height="600">
+  </div>
 6\. Now that it's soldered in, you should hot glue the connections to the board and the wires to ensure that the connections stay connected. You can use electrical tape if you'd like instead. These are meant to keep the wire connections isolated from each other and the boards.
   <div style="text-align:center">
   <img src="./assets/10.jpeg" height="600">
