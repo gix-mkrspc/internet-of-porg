@@ -74,7 +74,7 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](htt
   <div style="text-align:center">
   <img src="./assets/8.jpeg" height="600">
   </div>
-8\. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for hte cable to come out and the porg to still look like it's sitting fine!
+8\. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for the cable to come out and the porg to still look like it's sitting fine!
   <div style="text-align:center">
   <img src="./assets/11.jpeg" height="600">
   <img src="./assets/12.jpeg" height="600">
