@@ -196,9 +196,13 @@ What we need next:
   - Arduino:
     - CJ learned some git and began contributing to a script to help automate setting up Arduino
   - Azure:
-    - codes began a script to make creating an IoT Hub and devices automated
-  - Project stuff:
+    - codes began a script to make creating an IoT Hub and devices automated. Joey is working on finishing the script so that it can get the output of created devices so we can keep track of them.
+    - Justin learned some git and began contributing to a script to help automate provisioning Azure cloud resources
     - Joey finished docs for ESPHome setup process for MKRFRIDAYS and CJ + codes updated them: http://cody.codes/gix-mkrfridays-iot/
+    - Chuck worked on the MakerFaire application and emailed them since it'd closed without notice!
+
+Next steps:
+  Our next steps are to grab information from these devices so that we can easily map students to them and their identifiers. This automation will be two-fold since we can then create Azure functions based on all of the devices and then create unique + innovative ways to attach them together!
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
