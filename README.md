@@ -85,9 +85,72 @@ Congratulations, your porg can now be automated! 👏👏👏
 <!-- These will be updated -->
 Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfridays-iot/) but use the `porg.yaml` file instead of `servo.yaml`. After your board is flashed follow the instructions for general usage.
 
-### TODO: Azure IoT Hub
-In progress and coming soon!
+### Create Resources and Connect Port to Azure IoT Hub
 
+- Prerequisites
+  - Azure account (easy to sign up at https://azure.com)
+  - Dev tools/knowledge
+    - `python` (should be accessible from your system PATH environment variable)
+    - `npm` (should be accessible from your system PATH environment variable)
+    - `git` (should be accessible from your system PATH environment variable)
+    - VS Code To deploy serverless function
+    - Some shell experience (e.g. understanding of changing directories with `cd`)
+  - Some time to configure and test your newly connected porg!
+
+
+1. Navigate to [Azure](https://portal.azure.com/#home), logging in and then click "Create a resource":
+  ![](./assets/azure/1.png)
+2. Search and select **IoT Hub**
+  ![](./assets/azure/2.png)
+3. Click "Create"
+  ![](./assets/azure/3.png)
+4. To avoid charges, you can use the free tier. Create a new resource group as follows
+  ![](./assets/azure/4.png)
+5. First set of options is the following, then click "Next"
+  ![](./assets/azure/5.png)
+6. Make sure to choose free tier here, then click "Next"
+  ![](./assets/azure/6.png)
+7. Tags allow you to group resources across Azure infrastructure; we won't be using them here; click "Next"
+   ![](./assets/azure/7.png)
+8. Here's an overview of selected options; click "Create" and your hub will be deployed!
+   ![](./assets/azure/8.png)
+9.  While we're waiting we can setup the serverless function while will make the porg respond when invoked! Please do the following for VSCode:
+    - Please follow the first page of instructions [here](https://docs.microsoft.com/en-us/azure/developer/python/tutorial-vs-code-serverless-python-01) to get your dev environment setup to deploy python functions to Azure.
+    - Please install [this extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit) to easily manage IoT Hub + devices and credentials from VSCode.
+10. Open a shell and to a directory which you're comfortable working from. Then clone this repo using `git clone git@github.com:codycodes/gix-mkrfridays-iot.git`
+    ![](./assets/azure/9.png)
+11. Verify that you have serverless function dev environment setup by typing `func` in your shell
+   ![](./assets/azure/11.png)
+12. From the **c2d_function** folder (`my_dev_folder/gix-mkrfridays-iot/azure_iot_hub/c2d_function`) Open this cloned repo in VS Code. I like to use the `code .` command, but this may not be installed in your `PATH` environment variable. I find it useful though and so if you're interested you can learn about it [here](https://code.visualstudio.com/docs/setup/mac)
+13. Initialize the folder in Azure by clicking the Azure icon (extension) in the siebar, then clicking the "Local Project (c2d_function)" to expand it and then click "Initialize"
+    ![](./assets/azure/12.png)
+15. Now go to the files icon and click the `__init__.py` file to open it up. You can install `pylint` if you'd like linting enabled.
+  ![](./assets/azure/13.png)
+16. Expand the IoT Hub dropdown in the Explorer pane and select your IoT Hub
+    ![](./assets/azure/18.png)
+    ![](./assets/azure/19.png)
+17. Now that our hub is configured, we'll create a device inside of it. Select "Create Device"
+    ![](./assets/azure/20.png)
+    ![](./assets/azure/21.png)
+19. Once the device is created it'll show up in the explorer. Right click it and click "Copy Device Connection String" for it:
+20. Now edit the `__init__.py` code to add the following under the environment variables TODO: rescreencap with `porg` command:
+    ![](./assets/azure/23.png)
+    Edit them with your chosen values!
+  ![](./assets/azure/30.png)
+21. You can now open the command palette in VSCode and type "deploy". Select the option to deploy to function app
+    ![](./assets/azure/24.png)
+22. Select the basic one
+    ![](./assets/azure/25.png)
+23. The name of the function app should be *globally unique* so add some random characters in there and make it long if you'd like to ensure it's private. This one isn't private just for example!
+   ![](./assets/azure/26.png)
+24.  We're using Python 3.7 runtime
+   ![](./assets/azure/27.png)
+25.  Deploy where you think is best! Now it'll do its magic!
+  ![](./assets/azure/28.png)
+26.  When it's ready you'll get a message:
+    ![](./assets/azure/29.png)
+25. Now you'll need to follow the instructions on Microsoft's offical [Azure IoT SDK for ESP8266 devices](https://github.com/Azure/azure-iot-arduino) to flash your Arduino so it's setup for IoTHub! TODO: add the other Arduino client instructions from our fork.
+26. Test it out! You can now test out the code by going to the function URL you received; if your Arduino device is setup correctly you should be able to receive a response from it!
 # Project overview - Just for those working on the project!
 # Minimum Project Scope
 
