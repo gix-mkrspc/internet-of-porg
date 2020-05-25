@@ -266,6 +266,7 @@ What we need next:
       - codes merged some code for it and we now have a solid plan including the information we need and how it can be passed into Azure Functions and saved for later use.
     - Joey finished docs for ESPHome setup process for MKRFRIDAYS and CJ + codes updated them: http://cody.codes/gix-mkrfridays-iot/
     - Chuck worked on the MakerFaire application and emailed them since it'd closed without notice!
+    - Lots of documentation on how to set all of this up manually (30 + steps!)
 
 Next steps:
   - Azure account status?
