@@ -258,14 +258,24 @@ What we need next:
 ### Week 1:
   - Arduino:
     - CJ learned some git and began contributing to a script to help automate setting up Arduino
+      - We got far enough to change one of the Arduino.h files for the board and will now test changing the board's `platform.txt` file!
+        - After this is confirmed working we can merge this code in and also potentially make a pull request on the [IoT Arduino](https://github.com/Azure/azure-iot-arduino) repo.
   - Azure:
-    - codes began a script to make creating an IoT Hub and devices automated. Joey is working on finishing the script so that it can get the output of created devices so we can keep track of them.
-    - Justin learned some git and began contributing to a script to help automate provisioning Azure cloud resources
+    - codes began a script to make creating an IoT Hub and devices automated. Joey, Justin, and Cody are working on finishing the script so that it can get the output of created devices so we can keep track of them.
+      - Justin learned some git and began contributing to the script to help automate provisioning Azure cloud resources
+      - codes merged some code for it and we now have a solid plan including the information we need and how it can be passed into Azure Functions and saved for later use.
     - Joey finished docs for ESPHome setup process for MKRFRIDAYS and CJ + codes updated them: http://cody.codes/gix-mkrfridays-iot/
     - Chuck worked on the MakerFaire application and emailed them since it'd closed without notice!
 
 Next steps:
-  Our next steps are to grab information from these devices so that we can easily map students to them and their identifiers. This automation will be two-fold since we can then create Azure functions based on all of the devices and then create unique + innovative ways to attach them together!
+  - Azure account status?
+  - We need a person to create a file with each line containing a cohort member's first name; if the name has spaces then replace them with hyphens.
+  - dev: 
+    - grab information from these devices so that we can easily map students to them and their identifiers. 
+      - By the end of this week we'll probably have everything done for initial deployment, meaning we can create devices automatically now and hook them up to Azure Functions.
+      - This automation will be two-fold since we can then create Azure functions based on all of the devices and then create unique + innovative ways to attach them together!
+        - Discussions on how to facilitate acceptable exchange between devices and the logic that entails
+
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
