@@ -276,7 +276,20 @@ Next steps:
       - By the end of this week we'll probably have everything done for initial deployment, meaning we can create devices automatically now and hook them up to Azure Functions.
       - This automation will be two-fold since we can then create Azure functions based on all of the devices and then create unique + innovative ways to attach them together!
         - Discussions on how to facilitate acceptable exchange between devices and the logic that entails
+  - Since we all have porgs in CRW now we should come up with a method for connecting them together!
 
+## 💡Ideas:
+  - QR code activates the Porg!
+    - Depending on access we may be able to use the [UW API](https://wiki.cac.washington.edu/display/idcardws/Photo+Resource) to display the student's photo next to their QR code to say "hi"
+      - Could be offline (as a book each student gets) or online (as a web interface)
+      - [Sample](https://note.nkmk.me/en/python-pillow-qrcode/) of what it could look like:
+  ![](./assets/sample_qr.jpg)
+    - If we get fancy we can use a Raspberry Pi and hook it up to a [YouTube livestream](https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/) so you can "interact" with the Porg in the MKRSPC!
+  - Control Porg via other interfaces
+    - [emotion-check](https://github.com/JimPaine/emotion-checker/tree/master/env) uses a serverless function to hook up your webcam to Azure Cognitive Services, allowing you to control the porg with your emotions (use the force!)
+  - More automation = better outcome
+    - Use [Terraform](https://www.terraform.io) to automate the deployment even further!
+    - Use [Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to facilitate deployment of these resources!
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
