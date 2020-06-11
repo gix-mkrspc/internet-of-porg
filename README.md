@@ -17,7 +17,7 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
 ## Upon Completion
 By completing this project you will have a porg or other hacked interactive 5v plush which can be invoked via web request over the Internet!
 
-As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](https://amzn.to/2WFhYfX)!
+As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](https://amzn.to/2WFhYfX)!
 
 <div class="gif-container" style="text-align:center">
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
@@ -25,7 +25,7 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](htt
 
 ## Materials
 
-  ### Required
+## Required
  - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works. You need a long, thin philips head screwdriver)
  - [Porg](https://amzn.to/2WFhYfX)
  - [NodeMCU](https://amzn.to/3cKYa0g)
@@ -33,12 +33,15 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25, including tax](htt
  - Desktop/laptop computer to flash the NodeMCU
  - Soldering iron
  - Solder
+ - Wire
 
-  ### Preferred
+### Preferred
  - [3D printed NodeMCU case](https://www.thingiverse.com/thing:2786523) (can also use electrical tape)
  - Hot glue
  - Wire cutters
+ - DuPont Wires (Female to Male)
  - Electrical tape
+
 ## Setup
 ### Hacking the porg
 
