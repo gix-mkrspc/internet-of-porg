@@ -15,7 +15,14 @@ The NodeMCU is an open-source firmware and development kit which allows us to us
 ESPHome is the software and firmware flasher we’ll be using; it’s a “system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems” [ESPHome homepage](https://esphome.io).
 
 ## Upon Completion
-By completing this project you will have a porg or other hacked interactive 5v plush which can be invoked via web request over the Internet!
+By completing this project you will have a porg or other hacked interactive 5v plush which can be invoked via web request over the Internet! There are a couple options that you can choose to take as well, including:
+
+1. Soldering the porg's battery terminals and using the NodeMCU to power it instead (Look ma, no batteries!)
+2. Avoid using a relay and use the NodeMCU as the interface when the Porg's button is pressed (Allows you to use the button on the porg as a Smart Button)
+
+It is *your* choice on what you wish to do with this project! The options above have some tradeoffs which are dicsussed in the section below. 
+
+We've included some fun ideas at the end for things we're doing with them. Please feel free to message us with any ideas you've come up with as well at [ibelieveinporg@cody.codes](mailto:ibelieveinporg@cody.codes)
 
 As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](https://amzn.to/2WFhYfX)!
 
@@ -23,9 +30,15 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](ht
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
 </div>
 
+## Discussion
+
+### Options, tradeoffs
+
+### Ideas
+
 ## Materials
 
-## Required
+### Required
  - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works. You need a long, thin philips head screwdriver)
  - [Porg](https://amzn.to/2WFhYfX)
  - [NodeMCU](https://amzn.to/3cKYa0g)
