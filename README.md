@@ -223,19 +223,20 @@ Each emoji represents one or two people:
 👔= Presenters (one to four people)  
 🧪= Testers (three people)
 
-- [ ] ARM Template (three people) - Justin, Joey, Cody
-  - [ ] 🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
-  - [ ] 🔎Learn Deployment Manager for ARM Templates  
-  - [ ] ☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+- [x] ARM Template (three people) - Justin, Joey, Cody
+  - [x] 🔎Get high level resource templates for Function App, Azure IoT Hub, and IoT Device.
+  - [x] 🔎Learn Deployment Manager for ARM Templates  
+  - [x] ☁️[Learn Basic Structure of ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
   - [ ] ☁️Sign up for Azure
-  - [ ] ☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
-  - [ ] ☁️[Azure IoT Hub ARM template sample](https://azure.microsoft.com/en-us/resources/templates/?term=iothub)
+  - [x] ☁️[Create a sample ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell)
+  - [x] ☁️[Azure IoT Hub ARM template sample](https://azure.microsoft.com/en-us/resources/templates/?term=iothub)
 
-- [ ] Arduino Flashing (two people) - CJ, Cody
-  - [ ] 🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
-  - [ ] 🤖Write a python script to automate changing the files for *Linux/Unix*
+- [x] Arduino Flashing (two people) - CJ, Cody
+  - [x] 🤖Figure out uploading the code to Arduino on multiple platforms (Windows/Linux/Unix) and create documentation including entering Wi-Fi SSID + password and adding code config 
+  - [x] 🤖Write a python script to automate changing the files for *Linux/Unix*
   - [ ] 🤖EXTRA: Automate the process on Windows as well and use the [Arduino CLI](https://github.com/arduino/arduino-cli) project
 
+Always time to do this:
 - [ ] Submission of Projects (two people) (Yun, Chuck, Ke)
   - [ ] 📜Create GIX account on [Make Projects](https://makeprojects.com/)
     - [ ] 📜Category: Re-thinking the Future - How the pandemic and our response to it is teaching us to think differently. How, where and why we do things. Sustainability. Food. Well-being.
