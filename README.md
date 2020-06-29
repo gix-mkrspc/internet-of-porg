@@ -255,6 +255,8 @@ Each emoji represents one or two people:
 Maybe with more people and learning this project COULD take up to 40 hours, but this is still an estimate. It could take a lot less time or potentially more time. I've included multiple possibilities so this project can be successful even with as little as 20 hrs of time.
 
 ## Weekly updates
+
+## Spring Quarter
 ### Week 0:
   - Arduino: CJ + codes worked on how to setup a dev environment for ESPHome
     - CJ also contributed valuable docs which are now [live](http://cody.codes/gix-mkrfridays-iot/)
@@ -284,7 +286,7 @@ What we need next:
     - Chuck worked on the MakerFaire application and emailed them since it'd closed without notice!
     - Lots of documentation on how to set all of this up manually (30 + steps!)
 
-Next steps:
+*Next steps:*
   - Azure account status?
   - We need a person to create a file with each line containing a cohort member's first name; if the name has spaces then replace them with hyphens.
   - dev: 
@@ -294,18 +296,51 @@ Next steps:
         - Discussions on how to facilitate acceptable exchange between devices and the logic that entails
   - Since we all have porgs in CRW now we should come up with a method for connecting them together!
 
+## Summer Quarter
+### Week 0
+  - Arduino:
+    - Finished script for ESP8266
+    - Scrolling screen using LED matrix on ESP32
+    - Separated, moved Arduino files; now in a *quickstarts* folder
+    - More documentation completed!
+  - Azure:
+    - Fully functional deployment script (400+ lines!)
+      - Creates resources we need for MVP
+    - 
+
+*Next steps:*
+  - Arduino:
+    - Setup ESP32 automated config (like 8266)
+    - Figure out best way to attempt to merge our script into [the repo](https://github.com/Azure/azure-iot-arduino)
+    - More input/output interfaces!
+      - Should be low enough frequency to have 200 messages a day currently (8,000 free messages/day / about 40 students [each with one device]) but optimally less than 24 to build in future cohorts' usage
+    - Documentation for the screen interface
+      - Circuit diagram
+  - Azure:
+    - Document the resources and flow of deployment script
+    - Discussion time to figure out things
+      - backend
+        - creating awesome ways for users to get setup!
+        - security ⛓
+        - enforcing limits
+      - whether to move this repo to GIX
+  - Porg:
+    - Survival - poke a porg Tuesdays starting 7-7-2020!
+
 ## 💡Ideas:
   - QR code activates the Porg!
     - Depending on access we may be able to use the [UW API](https://wiki.cac.washington.edu/display/idcardws/Photo+Resource) to display the student's photo next to their QR code to say "hi"
       - Could be offline (as a book each student gets) or online (as a web interface)
-      - [Sample](https://note.nkmk.me/en/python-pillow-qrcode/) of what it could look like:
-  ![](./assets/sample_qr.jpg)
+      - [Sample](https://note.nkmk.me/en/python-pillow-qrcode/) of what it could look like:  
+  ![](./assets/sample_qr.png)
     - If we get fancy we can use a Raspberry Pi and hook it up to a [YouTube livestream](https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/) so you can "interact" with the Porg in the MKRSPC!
   - Control Porg via other interfaces
     - [emotion-check](https://github.com/JimPaine/emotion-checker/tree/master/env) uses a serverless function to hook up your webcam to Azure Cognitive Services, allowing you to control the porg with your emotions (use the force!)
   - More automation = better outcome
     - Use [Terraform](https://www.terraform.io) to automate the deployment even further!
     - Use [Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to facilitate deployment of these resources!
+  - Print out some of these rad things and make fully functional multifunction IoT interfaces!
+  ![](./assets/arduino_bb.png)
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
