@@ -299,6 +299,7 @@ What we need next:
 
 ## Summer Quarter
 ### Week 0
+
   - Arduino:
     - Finished script for ESP8266
     - Scrolling screen using LED matrix on ESP32
@@ -319,14 +320,26 @@ What we need next:
       - Circuit diagram
   - Azure:
     - Document the resources and flow of deployment script
-    - Discussion time to figure out things
+    - Improve the structure of code and make it work cross-platform for any path issues
+    - Discussion time to figure out things:
       - backend
         - creating awesome ways for users to get setup!
+          - Documentation should be easy
         - security ⛓
+          - Make it work on the backend and never expose direct function URLs or function code (not currently done in the MVP)
         - enforcing limits
+          - Only x messages per period
+            - Potentially monitor the requests if there are too many.
       - whether to move this repo to GIX
   - Porg:
     - Survival - poke a porg Tuesdays starting 7-7-2020!
+
+### Week 1
+#### Meeting Agenda 6-30-2020
+1. Overview of Progress
+2. What's next for the project to become usable
+   * Discussion of ideas and approval!
+3. Delegation of hours/tasks to reach new goals!
 
 ## 💡Ideas:
   - QR code activates the Porg!
@@ -342,6 +355,8 @@ What we need next:
     - Use [Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to facilitate deployment of these resources!
   - Print out some of these rad things and make fully functional multifunction IoT interfaces!
   ![](./assets/arduino_bb.png)
+
+### Ways to bring it to GIX
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
