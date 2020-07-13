@@ -17,9 +17,6 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
 **Table of Contents**
   * [About](#about)
   * [Upon Completion](#upon-completion)
-  * [Discussion](#discussion)
-    + [Options, tradeoffs](#options--tradeoffs)
-    + [Ideas](#ideas)
   * [Materials](#materials)
     + [Required](#required)
     + [Preferred](#preferred)
@@ -41,7 +38,7 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
     - [Week 0](#week-0-1)
     - [Week 1](#week-1-1)
       - [Meeting Agenda 6-30-2020](#meeting-agenda-6-30-2020)
-  - [💡Ideas:](#ideas-1)
+  - [💡Ideas:](#ideas)
     - [Ways to bring it to GIX](#ways-to-bring-it-to-gix)
   - [Contributing](#contributing)
 
@@ -61,18 +58,13 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](ht
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
 </div>
 
-## Discussion
-
-### Options, tradeoffs
-
-### Ideas
-
 ## Materials
 
 ### Required
  - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works. You need a long, thin philips head screwdriver)
  - [Porg](https://amzn.to/2WFhYfX)
  - [NodeMCU](https://amzn.to/3cKYa0g)
+ - [5V Relay](https://amzn.to/3etcpGS) If intending to keep porg's original battery-powered functionality intact. Otherwise if you'll be keeping this powered via USB it's not necessary
  - [USB Micro **data** Cable](https://amzn.to/2zUJjBC) (you probably have some of these lying around)
  - Desktop/laptop computer to flash the NodeMCU
  - Soldering iron
@@ -86,8 +78,14 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](ht
  - DuPont Wires (Female to Male)
  - Electrical tape
 
-## Setup
-### Hacking the porg
+## Guide
+There are two different approaches you can take to hacking your porg! The first requires a relay and allows you to continue to use the core functionality of the porg, which is to have it battery powered and not require the ESP8266 to be plugged in to work. Unfortunately the power of the porg has not been enough for us in our experience so instead we recommend going with option 2, which is allows the porg to function via USB power completely, but sacrifices its ability to function normally when it's not plugged in. On the upside, you can then use the button as a GPIO input to the Porg, which allows you to unleash the full Internet of Porg potential!
+
+> NOTE: If you're going with option 2 (USB Power), you should NOT have batteries connected to the porg ever! It may damage and break your ESP8266 and/or your porg!
+
+> DISCLAIMER: We are not responsible in any way shape or form if you encounter problems by following this guide. Follow this guide at your own risk!
+
+### Hacking the porg (keeping batteries 🔋)
 
 1\. Unscrew the battery compartment and remove the batteries from the device. Then, cut the ziptie shown here:
   <div style="text-align:center">
