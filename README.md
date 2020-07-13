@@ -106,11 +106,55 @@ There are two different approaches you can take to hacking your porg! The first 
   <div style="text-align:center">
   <img src="./assets/6.jpeg" height="600">
   </div>
-5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, completing the circuit and activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
+5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, which will then activate the relay and complete the circuit, thus activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
   <div style="text-align:center">
   <img src="./assets/7.jpeg" height="600">
-  <img src="./assets/porg_bb.jpeg" height="600">
+  <img src="./assets/13.png" height="600">
   </div>
+  Note! Please keep in mind that these wires are colored Cyan which denotes the button. It doesn't matter which color your wires are but they should plug into the relay where the green part is.
+6\. Now that it's soldered in, you should hot glue the connections to the board and the wires to ensure that the connections stay connected. You can use electrical tape if you'd like instead. These are meant to keep the wire connections isolated from each other and the boards.
+  <div style="text-align:center">
+  <img src="./assets/10.jpeg" height="600">
+  </div>
+7\. Stuff the electronics back into the Porg, minding the wires.
+  <div style="text-align:center">
+  <img src="./assets/8.jpeg" height="600">
+  </div>
+8\. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for the cable to come out and the porg to still look like it's sitting fine!
+  <div style="text-align:center">
+  <img src="./assets/11.jpeg" height="600">
+  <img src="./assets/12.jpeg" height="600">
+  </div>
+Congratulations, your porg can now be automated! 👏👏👏 
+
+### Hacking the porg (USB Power 🔌)
+<!-- TODO: Should be rewritten for different parts! -->
+
+1\. Unscrew the battery compartment and remove the batteries from the device. Then, cut the ziptie shown here:
+  <div style="text-align:center">
+  <!-- make the following images centered -->
+  <img src="./assets/1.jpeg" height="600">
+  </div>
+2\. Scrunch up the Porg and you'll find four screws in the back; unscrew them using the extra long philips screw driver.
+  <div style="text-align:center">
+  <img src="./assets/2.jpeg" height="600">
+  <img src="./assets/3.jpeg" height="600">
+  </div>
+3\. You can now pry the sides of the bottom out which will pop open the internals; who knew this is what a Porg looks like on the inside?!
+  <div style="text-align:center">
+  <img src="./assets/4.jpeg" height="600">
+  <img src="./assets/5.jpeg" height="600">
+  </div>
+4\. Use wirecutters to snip the light blue wires which are attached to the button. Leave **plenty** of room from the circuitboard of the porg to the wires. Then snip off the insulation from the wire so that the bare copper wire is showing. Be careful! It's easy to take all the insulation off so hold the bottom of the wire which is attached to the circuitboard with your hand while you pull the top part off.
+  <div style="text-align:center">
+  <img src="./assets/6.jpeg" height="600">
+  </div>
+5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, which will then activate the relay and complete the circuit, thus activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
+  <div style="text-align:center">
+  <img src="./assets/7.jpeg" height="600">
+  <img src="./assets/14.png" height="600">
+  </div>
+  Note! Please keep in mind that these wires are colored Cyan which denotes the button. It doesn't matter which color your wires are but they should plug into the relay where the green part is.
 6\. Now that it's soldered in, you should hot glue the connections to the board and the wires to ensure that the connections stay connected. You can use electrical tape if you'd like instead. These are meant to keep the wire connections isolated from each other and the boards.
   <div style="text-align:center">
   <img src="./assets/10.jpeg" height="600">
