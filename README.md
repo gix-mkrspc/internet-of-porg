@@ -38,8 +38,14 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
     - [Week 0](#week-0-1)
     - [Week 1](#week-1-1)
       - [Meeting Agenda 6-30-2020](#meeting-agenda-6-30-2020)
+    - [Week 3](#week-3)
   - [💡Ideas:](#ideas)
     - [Ways to bring it to GIX](#ways-to-bring-it-to-gix)
+      - [📹IoT Livestream](#iot-livestream)
+        - [Requirements](#requirements)
+      - [Timeline](#timeline)
+        - [Future Ideas](#future-ideas)
+      - [🔆Light with Data](#light-with-data)
   - [Contributing](#contributing)
 
 ## Upon Completion
@@ -414,6 +420,8 @@ What we need next:
    * Discussion of ideas and approval!
 3. Delegation of hours/tasks to reach new goals!
 
+### Week 3
+
 ## 💡Ideas:
   - QR code activates the Porg!
     - Depending on access we may be able to use the [UW API](https://wiki.cac.washington.edu/display/idcardws/Photo+Resource) to display the student's photo next to their QR code to say "hi"
@@ -430,6 +438,49 @@ What we need next:
   ![](./assets/arduino_bb.png)
 
 ### Ways to bring it to GIX
+#### 📹IoT Livestream
+We plan on creating a livestream which showcases some of the IoT devices in a frame (like a diorama) and can be interacted with by others remotely. This will use the following components:
+* Raspberry Pi w/camera for hosting the livestream
+* Interfaces
+  * MAX7219 LED Matrix for showing off useful/fun info
+  * Porg which can be invoked at will
+* Other cool GIX/MKRSPC things in the frame
+
+##### Requirements
+* Use our existing infrastructure created on Azure IoT Hub
+  * Azure IAM setup so we can securely deploy and use required cloud services
+  * Currently use a small amount of devices to make it easier to reconfigure if/when necessary
+    * Adding a new device means total reconfig
+  * Use the static site and quick starts already created
+    * Going to update the porg probably
+* Everything in frame is visible at all times livestream is up
+  * Nighttime mode
+    * If lights off at the MKRSPC, this should remain on so it can still be interacted with
+  * Easy to see the LED matrix etc. see [Light shield](https://lewisaburrow.selz.com/item/5c6fc78d701f5d03b4696df8)
+  ![shield](./assets/shield.png)
+* Have MKRSPC things in there or something that indicates GIX
+  * e.g. previously designed and built things like 3D prints, lasercuts, etc.
+* Setup in a static-ish location with power and network access
+  * Maybe by the vinyl cutters?
+  * ❗Each device needs to have MAC addresses added before it can connect to UW
+#### Timeline
+
+1. Order the MAX7219 and test on screen; maybe buy the shield?
+2. Finish Porg
+3. Livestream on Pi
+4. Put it all together!
+
+##### Future Ideas
+* Integrate the MKRSPC as a background
+* Rotate a servo with the camera mounted on it around to see in different directions
+  * Create a "voting" game which allows users to choose what will happen next
+* IoT Garden
+* Chat room and porgs, something like that
+  * Porg says hi
+    * When the porg button is pressed on the livestream it sends a message which can be displayed "porg says hi!" - Webhook to MSFT Teams
+  * Move the table on a basis
+#### 🔆Light with Data
+
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
