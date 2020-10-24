@@ -2,11 +2,11 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <div style="text-align:center">
     <!-- star -->
-    <a class="github-button" href="https://github.com/codycodes/iot-porg-makerfaire/" data-icon="octicon-star" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Star codycodes/iot-porg-makerfaire on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/codycodes/iot-Porg-makerfaire/" data-icon="octicon-star" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Star codycodes/iot-Porg-makerfaire on GitHub">Star</a>
     <!-- download -->
-    <a class="github-button" href="https://github.com/codycodes/iot-porg-makerfaire/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download codycodes/iot-porg-makerfaire on GitHub">Download</a>
+    <a class="github-button" href="https://github.com/codycodes/iot-Porg-makerfaire/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download codycodes/iot-Porg-makerfaire on GitHub">Download</a>
     <!-- issue -->
-    <a class="github-button" href="https://github.com/codycodes/iot-porg-makerfaire/issues" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Issue codycodes/iot-porg-makerfaire on GitHub">Issue</a>
+    <a class="github-button" href="https://github.com/codycodes/iot-Porg-makerfaire/issues" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Issue codycodes/iot-Porg-makerfaire on GitHub">Issue</a>
 </div>
 
 ## About
@@ -21,7 +21,7 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
     + [Required](#required)
     + [Preferred](#preferred)
   * [Setup](#setup)
-    + [Hacking the porg](#hacking-the-porg)
+    + [Hacking the Porg](#hacking-the-Porg)
     + [ESPHome (local) flashing instructions](#esphome--local--flashing-instructions)
     + [Create Resources and Connect Port to Azure IoT Hub](#create-resources-and-connect-port-to-azure-iot-hub)
 - [Project overview - Just for those working on the project!](#project-overview---just-for-those-working-on-the-project)
@@ -49,10 +49,10 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
   - [Contributing](#contributing)
 
 ## Upon Completion
-By completing this project you will have a porg or other hacked interactive 5v plush which can be invoked via web request over the Internet! There are a couple options that you can choose to take as well, including:
+By completing this project you will have a Porg or other hacked interactive 5v plush which can be invoked via web request over the Internet! There are a couple options that you can choose to take as well, including:
 
-1. Soldering the porg's battery terminals and using the NodeMCU to power it instead (Look ma, no batteries!)
-2. Avoid using a relay and use the NodeMCU as the interface when the Porg's button is pressed (Allows you to use the button on the porg as a Smart Button)
+1. Soldering the Porg's battery terminals and using the NodeMCU to power it instead (Look ma, no batteries!)
+2. Avoid using a relay and use the NodeMCU as the interface when the Porg's button is pressed (Allows you to use the button on the Porg as a Smart Button)
 
 It is *your* choice on what you wish to do with this project! The options above have some tradeoffs which are dicsussed in the section below. 
 
@@ -67,10 +67,10 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](ht
 ## Materials
 
 ### Required
- - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works. You need a long, thin philips head screwdriver)
+ - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works; the one I use is a "#1" Philips head. Regardless, you'll need a long, thin philips head screwdriver with the right size to be able to get the screws out from the back)
  - [Porg](https://amzn.to/2WFhYfX)
  - [NodeMCU](https://amzn.to/3cKYa0g)
- - [5V Relay](https://amzn.to/3etcpGS) If intending to keep porg's original battery-powered functionality intact. Otherwise if you'll be keeping this powered via USB it's not necessary
+ - [5V Relay](https://amzn.to/3etcpGS) If intending to keep Porg's original battery-powered functionality intact. Otherwise if you'll be keeping this powered via USB it's not necessary
  - [USB Micro **data** Cable](https://amzn.to/2zUJjBC) (you probably have some of these lying around)
  - Desktop/laptop computer to flash the NodeMCU
  - Soldering iron
@@ -85,13 +85,15 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](ht
  - Electrical tape
 
 ## Guide
-There are two different approaches you can take to hacking your porg! The first requires a relay and allows you to continue to use the core functionality of the porg, which is to have it battery powered and not require the ESP8266 to be plugged in to work. Unfortunately the power of the porg has not been enough for us in our experience so instead we recommend going with option 2, which is allows the porg to function via USB power completely, but sacrifices its ability to function normally when it's not plugged in. On the upside, you can then use the button as a GPIO input to the Porg, which allows you to unleash the full Internet of Porg potential!
+There are two different approaches you can take to hacking your Porg! The first requires a relay and allows you to continue to use the core functionality of the Porg, which is to have it battery powered and not require the ESP8266 to be plugged in to work. Unfortunately the power consumption of the Porg running on batteries means it's prone to fail unexpectedly, so instead we recommend going with option 2, which is allows the Porg to function via USB power completely, but sacrifices its ability to function normally when it's not plugged in. It also doesn't require a relay to run, and saves you in the price of batteries. Also with option 2, you can then use the button as a GPIO input to the Porg, which allows you to unleash the full Internet of Porg potential!
 
-> NOTE: If you're going with option 2 (USB Power), you should NOT have batteries connected to the porg ever! It may damage and break your ESP8266 and/or your porg!
+> NOTE: If you're going with option 2 (USB Power), you should NOT have batteries connected to the Porg ever! It may damage and break your ESP8266 and/or your Porg!
 
 > DISCLAIMER: We are not responsible in any way shape or form if you encounter problems by following this guide. Follow this guide at your own risk!
 
-### Hacking the porg (keeping batteries 🔋)
+### Instructions
+These are the general instructions which you'll follow with both methods; at the appropriate time you can choose either option 1 or option 2, depending on what materials you have and which outcome you want.
+
 
 1\. Unscrew the battery compartment and remove the batteries from the device. Then, cut the ziptie shown here:
   <div style="text-align:center">
@@ -108,11 +110,14 @@ There are two different approaches you can take to hacking your porg! The first 
   <img src="./assets/4.jpeg" height="600">
   <img src="./assets/5.jpeg" height="600">
   </div>
-4\. Use wirecutters to snip the light blue wires which are attached to the button. Leave **plenty** of room from the circuitboard of the porg to the wires. Then snip off the insulation from the wire so that the bare copper wire is showing. Be careful! It's easy to take all the insulation off so hold the bottom of the wire which is attached to the circuitboard with your hand while you pull the top part off.
+4\. Use wirecutters to snip the light blue wires which are attached to the button. Leave **plenty** of room from the circuitboard of the Porg to the wires. Then snip off the insulation from the wire so that the bare copper wire is showing. Be careful! It's easy to take all the insulation off so hold the bottom of the wire which is attached to the circuitboard with your hand while you pull the top part off.
   <div style="text-align:center">
   <img src="./assets/6.jpeg" height="600">
   </div>
-5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, which will then activate the relay and complete the circuit, thus activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
+
+#### Option 1: Hacking the Porg (keeping batteries 🔋)
+
+5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the Porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, which will then activate the relay and complete the circuit, thus activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
   <div style="text-align:center">
   <img src="./assets/7.jpeg" height="600">
   <img src="./assets/13.png" height="600">
@@ -123,62 +128,44 @@ There are two different approaches you can take to hacking your porg! The first 
   <img src="./assets/10.jpeg" height="600">
   </div>
 7\. Stuff the electronics back into the Porg, minding the wires.
-  <div style="text-align:center">
+  <div style="text-align:center">****
   <img src="./assets/8.jpeg" height="600">
   </div>
-8\. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for the cable to come out and the porg to still look like it's sitting fine!
+8\. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for the cable to come out and the Porg to still look like it's sitting fine!
   <div style="text-align:center">
   <img src="./assets/11.jpeg" height="600">
   <img src="./assets/12.jpeg" height="600">
   </div>
-Congratulations, your porg can now be automated! 👏👏👏 
 
-### Hacking the porg (USB Power 🔌)
-<!-- TODO: Should be rewritten for different parts! -->
+#### Hacking the Porg (USB Power 🔌)
 
-1\. Unscrew the battery compartment and remove the batteries from the device. Then, cut the ziptie shown here:
+5\. The first step is to ensure that the batteries are removed and will not be added back to the Porg; adding the batteries back in after we have power via USB can be dangerous. It's best to put some note on the battery panel stating not to put batteries in the product anymore. In addition, in the next step you can simply remove the battery terminals connection and instead solder the connections directly to the NodeMCU:
   <div style="text-align:center">
-  <!-- make the following images centered -->
-  <img src="./assets/1.jpeg" height="600">
+  <img src="./assets/usb_5.jpg" height="600">
   </div>
-2\. Scrunch up the Porg and you'll find four screws in the back; unscrew them using the extra long philips screw driver.
+
+6\. The next step is to solder the battery terminals to receive power input from the NodeMCU. Everything must be grounded to the NodeMCU for this to work. You will also ground one of the button wires to the Porg; since all ground pins are connected on a ground plane inside the NodeMCU, just ensure that you connect to any of the four ground pins on the NodeMCU ESP8266. The points to solder are indicated by the red/black wires in the picture:
   <div style="text-align:center">
-  <img src="./assets/2.jpeg" height="600">
-  <img src="./assets/3.jpeg" height="600">
+  <img src="./assets/usb_6.jpg" height="600">
+  <img src="./assets/usb_7.jpg" height="600">
   </div>
-3\. You can now pry the sides of the bottom out which will pop open the internals; who knew this is what a Porg looks like on the inside?!
-  <div style="text-align:center">
-  <img src="./assets/4.jpeg" height="600">
-  <img src="./assets/5.jpeg" height="600">
-  </div>
-4\. Use wirecutters to snip the light blue wires which are attached to the button. Leave **plenty** of room from the circuitboard of the porg to the wires. Then snip off the insulation from the wire so that the bare copper wire is showing. Be careful! It's easy to take all the insulation off so hold the bottom of the wire which is attached to the circuitboard with your hand while you pull the top part off.
-  <div style="text-align:center">
-  <img src="./assets/6.jpeg" height="600">
-  </div>
-5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to act as a button press, which will then activate the relay and complete the circuit, thus activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
-  <div style="text-align:center">
-  <img src="./assets/7.jpeg" height="600">
-  <img src="./assets/14.png" height="600">
-  </div>
-  Note! Please keep in mind that these wires are colored Cyan which denotes the button. It doesn't matter which color your wires are but they should plug into the relay where the green part is.
-6\. Now that it's soldered in, you should hot glue the connections to the board and the wires to ensure that the connections stay connected. You can use electrical tape if you'd like instead. These are meant to keep the wire connections isolated from each other and the boards.
-  <div style="text-align:center">
-  <img src="./assets/10.jpeg" height="600">
-  </div>
-7\. Stuff the electronics back into the Porg, minding the wires.
-  <div style="text-align:center">
-  <img src="./assets/8.jpeg" height="600">
-  </div>
-8\. You can pry the sides apart to fit the battery compartment back in. Rescrew the four screws in the back and the battery case back on. While it won't fit perfectly, there is enough room for the cable to come out and the porg to still look like it's sitting fine!
-  <div style="text-align:center">
-  <img src="./assets/11.jpeg" height="600">
-  <img src="./assets/12.jpeg" height="600">
-  </div>
-Congratulations, your porg can now be automated! 👏👏👏 
+
+7\. We will be using the GPIO of the NodeMCU to trigger the Porg. In order to do this we must use the correct wires
+
+
+
+
+
+
+
+Congratulations, your Porg can now be automated! 👏👏👏 
+
+
+
 
 ### ESPHome (local) flashing instructions
 <!-- These will be updated -->
-Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfridays-iot/) but use the `porg.yaml` file instead of `servo.yaml`. After your board is flashed follow the instructions for general usage.
+Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfridays-iot/) but use the `Porg.yaml` file instead of `servo.yaml`. After your board is flashed follow the instructions for general usage.
 
 ### Create Resources and Connect Port to Azure IoT Hub
 
@@ -190,7 +177,7 @@ Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfriday
     - `git` (should be accessible from your system PATH environment variable)
     - VS Code To deploy serverless function
     - Some shell experience (e.g. understanding of changing directories with `cd`)
-  - Some time to configure and test your newly connected porg!
+  - Some time to configure and test your newly connected Porg!
 
 
 1. Navigate to [Azure](https://portal.azure.com/#home), logging in and then click "Create a resource":
@@ -209,7 +196,7 @@ Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfriday
    ![](./assets/azure/7.png)
 8. Here's an overview of selected options; click "Create" and your hub will be deployed!
    ![](./assets/azure/8.png)
-9.  While we're waiting we can setup the serverless function while will make the porg respond when invoked! Please do the following for VSCode:
+9.  While we're waiting we can setup the serverless function while will make the Porg respond when invoked! Please do the following for VSCode:
     - Please follow the first page of instructions [here](https://docs.microsoft.com/en-us/azure/developer/python/tutorial-vs-code-serverless-python-01) to get your dev environment setup to deploy python functions to Azure.
     - Please install [this extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit) to easily manage IoT Hub + devices and credentials from VSCode.
 10. Open a shell and to a directory which you're comfortable working from. Then clone this repo using `git clone git@github.com:codycodes/gix-mkrfridays-iot.git`
@@ -228,7 +215,7 @@ Follow the dev environment guide at [this link](https://cody.codes/gix-mkrfriday
     ![](./assets/azure/20.png)
     ![](./assets/azure/21.png)
 19. Once the device is created it'll show up in the explorer. Right click it and click "Copy Device Connection String" for it:
-20. Now edit the `__init__.py` code to add the following under the environment variables TODO: rescreencap with `porg` command:
+20. Now edit the `__init__.py` code to add the following under the environment variables TODO: rescreencap with `Porg` command:
     ![](./assets/azure/23.png)
     Edit them with your chosen values!
   ![](./assets/azure/30.png)
@@ -411,7 +398,7 @@ What we need next:
             - Potentially monitor the requests if there are too many.
       - whether to move this repo to GIX
   - Porg:
-    - Survival - poke a porg Tuesdays starting 7-7-2020!
+    - Survival - poke a Porg Tuesdays starting 7-7-2020!
 
 ### Week 1
 #### Meeting Agenda 6-30-2020
@@ -430,7 +417,7 @@ What we need next:
   ![](./assets/sample_qr.png)
     - If we get fancy we can use a Raspberry Pi and hook it up to a [YouTube livestream](https://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/) so you can "interact" with the Porg in the MKRSPC!
   - Control Porg via other interfaces
-    - [emotion-check](https://github.com/JimPaine/emotion-checker/tree/master/env) uses a serverless function to hook up your webcam to Azure Cognitive Services, allowing you to control the porg with your emotions (use the force!)
+    - [emotion-check](https://github.com/JimPaine/emotion-checker/tree/master/env) uses a serverless function to hook up your webcam to Azure Cognitive Services, allowing you to control the Porg with your emotions (use the force!)
   - More automation = better outcome
     - Use [Terraform](https://www.terraform.io) to automate the deployment even further!
     - Use [Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops) to facilitate deployment of these resources!
@@ -452,7 +439,7 @@ We plan on creating a livestream which showcases some of the IoT devices in a fr
   * Currently use a small amount of devices to make it easier to reconfigure if/when necessary
     * Adding a new device means total reconfig
   * Use the static site and quick starts already created
-    * Going to update the porg probably
+    * Going to update the Porg probably
 * Everything in frame is visible at all times livestream is up
   * Nighttime mode
     * If lights off at the MKRSPC, this should remain on so it can still be interacted with
@@ -477,7 +464,7 @@ We plan on creating a livestream which showcases some of the IoT devices in a fr
 * IoT Garden
 * Chat room and porgs, something like that
   * Porg says hi
-    * When the porg button is pressed on the livestream it sends a message which can be displayed "porg says hi!" - Webhook to MSFT Teams
+    * When the Porg button is pressed on the livestream it sends a message which can be displayed "Porg says hi!" - Webhook to MSFT Teams
   * Move the table on a basis
 #### 🔆Light with Data
 
