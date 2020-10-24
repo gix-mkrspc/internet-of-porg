@@ -48,22 +48,27 @@ As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](ht
  - [Long, small philips head screwdriver](https://amzn.to/36iYAbQ) (NOTE: I didn't buy this so I would hope it works; the one I use is a "#1" Philips head. Regardless, you'll need a long, thin philips head screwdriver with the right size to be able to get the screws out from the back)
  - [Porg](https://amzn.to/2WFhYfX)
  - [NodeMCU](https://amzn.to/3cKYa0g)
- - [5V Relay](https://amzn.to/3etcpGS) If intending to keep Porg's original battery-powered functionality intact. Otherwise if you'll be keeping this powered via USB it's not necessary
- - [USB Micro **data** Cable](https://amzn.to/2zUJjBC) (you probably have some of these lying around)
+ - [USB Micro **data** Cable](https://amzn.to/2zUJjBC) (you may have some of these lying around)
  - Desktop/laptop computer to flash the NodeMCU
  - Soldering iron
  - Solder
  - Wire
 
+### Optional
+ - [5V Relay](https://amzn.to/3etcpGS) If intending to keep Porg's original battery-powered functionality intact. Otherwise if you'll be keeping this powered via USB it's not necessary.
+
 ### Preferred
- - [3D printed NodeMCU case](https://www.thingiverse.com/thing:2786523) (can also use electrical tape)
+ - 5V LED or Multimeter to test circuit
+ - Solder flux and applicator (toothpick works)
+ - Solder tip cleaner
  - Hot glue
  - Wire cutters
- - DuPont Wires (Female to Male)
+ - Small wire or DuPont Wires
+ - Heat shrink small enough for wire
  - Electrical tape
 
 ## Guide
-There are two different approaches you can take to hacking your Porg! The first requires a relay and allows you to continue to use the core functionality of the Porg, which is to have it battery powered and not require the ESP8266 to be plugged in to work. Unfortunately the power consumption of the Porg running on batteries means it's prone to fail unexpectedly, so instead we recommend going with option 2, which is allows the Porg to function via USB power completely, but sacrifices its ability to function normally when it's not plugged in. It also doesn't require a relay to run, and saves you in the price of batteries. Also with option 2, you can then use the button as a GPIO input to the Porg, which allows you to unleash the full Internet of Porg potential!
+There are two different approaches you can take to hacking your Porg! The first requires a relay and allows you to continue to use the core functionality of the Porg, which is to have it battery powered and not require the ESP8266 to be plugged in for it to work. Unfortunately the power consumption of the Porg running on batteries means it's prone to fail unexpectedly, so instead we recommend going with option 2, which is allows the Porg to function via USB power completely, but sacrifices its ability to function normally when it's not plugged in. It also doesn't require a relay to run, and saves you in the price of batteries. Also with option 2, you can then use the button as a GPIO input to the Porg, which allows you to unleash the full Internet of Porg potential!
 
 > NOTE: If you're going with option 2 (USB Power), you should NOT have batteries connected to the Porg ever! It may damage and break your ESP8266 and/or your Porg!
 
