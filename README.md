@@ -15,16 +15,19 @@ The NodeMCU is an open-source firmware and development kit which allows us to us
 ESPHome is the software and firmware flasher we’ll be using; it’s a “system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems” [ESPHome homepage](https://esphome.io).
 
 **Table of Contents**
-  * [About](#about)
-  * [Upon Completion](#upon-completion)
-  * [Materials](#materials)
-    + [Required](#required)
-    + [Preferred](#preferred)
-  * [Setup](#setup)
-    + [Hacking the Porg](#hacking-the-Porg)
-    + [ESPHome (local) flashing instructions](#esphome--local--flashing-instructions)
-    + [Create Resources and Connect Porg to Azure IoT Hub](#create-resources-and-connect-port-to-azure-iot-hub)
-  - [Contributing](#contributing)
+- [About](#about)
+- [Upon Completion](#upon-completion)
+- [Materials](#materials)
+  - [Required](#required)
+  - [Optional](#optional)
+  - [Preferred](#preferred)
+- [Guide](#guide)
+  - [Instructions](#instructions)
+    - [Option 1: Hacking the Porg (keeping batteries and using relay 🔋)](#option-1-hacking-the-porg-keeping-batteries-and-using-relay-)
+    - [Option 2: Hacking the Porg (USB power and no relay 🔌)](#option-2-hacking-the-porg-usb-power-and-no-relay-)
+  - [ESPHome (local) Instructions](#esphome-local-instructions)
+  - [Azure IoT Hub (remote) Instructions](#azure-iot-hub-remote-instructions)
+- [Contributing](#contributing)
 
 ## Upon Completion
 By completing this project you will have a Porg or other hacked interactive 5v plush which can be invoked via web request over the Internet! There are a couple options that you can choose to take as well, including:
@@ -122,7 +125,7 @@ These are the general instructions which you'll follow with both methods (relay/
   </div>
 
 
-#### Hacking the Porg (USB Power 🔌)
+#### Option 2: Hacking the Porg (USB power and no relay 🔌)
 
 In this example we will be building the following circuit, in which we solder directly to the NodeMCU's pins for the Porg's button input, squawk activator, and for powering the Porg via the USB cable plugged into the NodeMCU:
   <div style="text-align:center">
