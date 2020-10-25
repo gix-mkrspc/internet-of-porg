@@ -175,6 +175,7 @@ In this example we will be building the following circuit, in which we solder di
 
 Congratulations, your Porg can now be automated! 👏👏👏 
 
+You can quickly test your Porg using the Arduino sample files in this repo (under the `src` directory). Once you know it's working, feel free to move to the more feature rich deployments outlined below!
 
 ### ESPHome (local) Instructions
 
