@@ -179,7 +179,7 @@ You can quickly test your Porg using the Arduino sample files in this repo (unde
 
 ### ESPHome (local) Instructions
 
-Follow the setup guide at [this link](https://cody.codes/gix-mkrfridays-iot/#software-setup) and use the `porg-no-relay.yaml` configuration file. After your board is flashed follow the instructions for general usage.
+Follow the setup guide at [this link](https://cody.codes/gix-mkrfridays-iot/#software-setup) and use the `porg-no-relay.yaml` or `porg-relay.yaml` configuration file. After your board is flashed follow the instructions for general usage.
 
 ### Azure IoT Hub (remote) Instructions
 
