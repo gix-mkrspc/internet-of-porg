@@ -22,9 +22,9 @@ ESPHome is the software and firmware flasher we’ll be using; it’s a “syste
   - [Optional](#optional)
   - [Preferred](#preferred)
 - [Guide](#guide)
-  - [Instructions](#instructions)
-    - [Option 1: Hacking the Porg (keeping batteries and using relay 🔋)](#option-1-hacking-the-porg-keeping-batteries-and-using-relay-)
-    - [Option 2: Hacking the Porg (USB power and no relay 🔌)](#option-2-hacking-the-porg-usb-power-and-no-relay-)
+  - [General Instructions](#general-instructions)
+  - [Option 1: Hacking the Porg (keeping batteries and using relay 🔋)](#option-1-hacking-the-porg-keeping-batteries-and-using-relay-)
+  - [Option 2: Hacking the Porg (USB power and no relay 🔌)](#option-2-hacking-the-porg-usb-power-and-no-relay-)
   - [ESPHome (local) Instructions](#esphome-local-instructions)
   - [Azure IoT Hub (remote) Instructions](#azure-iot-hub-remote-instructions)
 - [Contributing](#contributing)
@@ -78,7 +78,7 @@ There are two different approaches you can take to hacking your Porg! The first 
 
 > DISCLAIMER: We are not responsible in any way shape or form if you encounter problems by following this guide. Follow this guide at your own risk!
 
-### Instructions
+### General Instructions
 These are the general instructions which you'll follow with both methods (relay/no relay); at the appropriate time you can choose either option 1 or option 2, depending on what materials you have and which outcome you want.
 
 1\. Unscrew the battery compartment and remove the batteries from the device. Then, cut the ziptie shown here:
@@ -101,7 +101,7 @@ These are the general instructions which you'll follow with both methods (relay/
   <img src="./assets/6.jpeg" height="600">
   </div>
 
-#### Option 1: Hacking the Porg (keeping batteries and using relay 🔋)
+### Option 1: Hacking the Porg (keeping batteries and using relay 🔋)
 
 5\. The basic idea is that we'll be soldering to the button wires, which are used to activate the Porg. In order to keep the button presses working, we will simply "extend" the button to the Node MCU. Then the NodeMCU will also have the ability to simulate a button press, which will then activate the relay and complete the circuit, thus activating the Porg! The circuit diagram for this and the soldering afterwards is as follows:
   <div style="text-align:center">
@@ -125,7 +125,7 @@ These are the general instructions which you'll follow with both methods (relay/
   </div>
 
 
-#### Option 2: Hacking the Porg (USB power and no relay 🔌)
+### Option 2: Hacking the Porg (USB power and no relay 🔌)
 
 In this example we will be building the following circuit, in which we solder directly to the NodeMCU's pins for the Porg's button input, squawk activator, and for powering the Porg via the USB cable plugged into the NodeMCU:
   <div style="text-align:center">
