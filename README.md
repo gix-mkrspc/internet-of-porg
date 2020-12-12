@@ -39,7 +39,7 @@ It is *your* choice on what you wish to do with this project! The options above 
 
 We've included some fun ideas at the end for things we're doing with them. Please feel free to message us with any ideas you've come up with as well at [ibelieveinporg@cody.codes](mailto:ibelieveinporg@cody.codes)
 
-As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](https://amzn.to/2WFhYfX)!
+~~As of 5-16-20, you can [buy a Porg from Amazon for about $25 (including tax)](https://amzn.to/2WFhYfX)!~~ Sorry, as of 12-12-20 I've been informed that the porgs are now collectible items! But this information can still be used as a general guide for disassembling and interfacing with ~5V toys!
 
 <div class="gif-container" style="text-align:center">
     <iframe src="https://giphy.com/embed/BpCYzidFkPgUzFV9cA" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-star-wars-the-last-jedi-BpCYzidFkPgUzFV9cA">via GIPHY</a></p>
