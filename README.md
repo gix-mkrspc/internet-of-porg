@@ -179,11 +179,11 @@ You can quickly test your Porg using the Arduino sample files in this repo (unde
 
 ### ESPHome (local) Instructions
 
-Follow the setup guide at [this link](https://cody.codes/gix-mkrfridays-iot/#software-setup) and use the `porg-no-relay.yaml` or `porg-relay.yaml` configuration file. After your board is flashed follow the instructions for general usage.
+Follow the setup guide at [this link](https://gix-mkrspc.github.io/gix-mkrfridays-iot/#software-setup) and use the `porg-no-relay.yaml` or `porg-relay.yaml` configuration file. After your board is flashed follow the instructions for general usage.
 
 ### Azure IoT Hub (remote) Instructions
 
-Follow the setup guide at [this link](https://github.com/codycodes/gix-mkrfridays-iot#remote-control-via-azure-iot-hub); please note that you will need an Azure account and to deploy the cloud infrastructure first; if you're just getting started, it's recommended to try ESPHome for the fastest/easiest setup!
+Follow the setup guide at [this link](https://gix-mkrspc.github.io/gix-mkrfridays-iot/#remote-control-via-azure-iot-hub); please note that you will need an Azure account and to deploy the cloud infrastructure first; if you're just getting started, it's recommended to try ESPHome for the fastest/easiest setup!
 
 ## Contributing
 Just click the "fork" button, make your changes, and open a pull request! If you need any help please ask :).
